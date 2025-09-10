@@ -1,5 +1,7 @@
 export const Person = ({ person }) => {
-  const partnerSex = person.sex === 'm' ? 'wife' : 'husband';
+  const partnerSex = person.sex === 'm'
+    ? 'wife'
+    : 'husband';
 
   return (
     <section className="Person">
